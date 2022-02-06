@@ -44,7 +44,7 @@ body {
 
 .filme-principal {
   font-size: 18px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%), <img class="box-filme" src="img/imagem2.jpg" alt="" srcset="">;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%), <img src="img/imagem2.jpg" alt="" srcset="">;
   height: 800px;
   background-size: cover;
   display: flex;
