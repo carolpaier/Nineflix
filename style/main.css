@@ -1,0 +1,104 @@
+:root {
+  --vermelho: #e50914;
+  --preto: #141414;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--preto);
+  font-family: "Arial", Times, serif;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+.container2 {
+  align-items: center;
+  margin-left: 10px;
+}
+
+.logo {
+  margin-left: 5px;
+  color: var(--vermelho);
+  font-family: "Arial Black", Times;
+  font-size: 30px;
+}
+
+.menu {
+  text-decoration: none;
+  color: #aaa;
+  margin-right: 12px;
+}
+.menu:hover {
+  color: var(--vermelho);
+}
+
+.filme-principal {
+  font-size: 18px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url("/img/imagem2.jpg");
+  height: 800px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.filme-principal .descricao {
+  margin-bottom: 40px;
+  margin-left: 10px;
+}
+
+.titulo {
+  margin-bottom: 10px;
+  font-size: 60px;
+  margin-left: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.button {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  margin-left: 10px;
+  font-size: 12px;
+
+  cursor: pointer;
+  transition: 2s ease all;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+.button i {
+  margin-right: 8px;
+}
+
+.filme-principal .container2 {
+  width: 60%;
+}
+
+.box-filme {
+  height: 100%;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+}
+
+.carrosel-filmes {
+  margin-top: 10px;
+}
