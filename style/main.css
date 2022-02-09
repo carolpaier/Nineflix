@@ -42,10 +42,10 @@ body {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%), url("../img/imagem2.jpg");
   height: 800px;
   background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 
