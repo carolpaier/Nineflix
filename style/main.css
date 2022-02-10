@@ -18,8 +18,8 @@ body {
     display:flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between; 
-}
+    justify-content: space-between;
+ }
 
 .logo {
   margin-left: 5px;
@@ -43,9 +43,9 @@ body {
   height: 800px;
   background-size: cover;
    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
 }
 
 
@@ -90,6 +90,7 @@ body {
 
 .filme-principal .container {
   width: 70%;
+  flex-direction: column;
 }
 
 .box-filme {
