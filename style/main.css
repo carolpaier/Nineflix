@@ -90,8 +90,7 @@ body {
 
 .filme-principal .container {
   width: 70%;
-  flex-direction: column;
-}
+  }
 
 .box-filme {
   height: 100%;
