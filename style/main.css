@@ -15,6 +15,7 @@ body {
 }
 
 .container{
+    background-size: cover;
     display:flex;
     flex-direction: row;
     align-items: center;
@@ -88,7 +89,7 @@ body {
     margin-left: 15px;
 }
 
-.filme-principal {
+.filme-principal .container {
   width: 70%;
   }
 
