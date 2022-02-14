@@ -3,6 +3,11 @@
     display: flex;
     flex-direction: column;
     }
+    
+    @media screen and (max-width:700px){
+    .filme-principal{
+    display: flex;
+    }
 
     .botao{
         margin-top: 5px;
