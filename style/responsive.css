@@ -7,6 +7,7 @@
     @media screen and (max-width:700px){
     .filme-principal{
     display: flex;
+    flex-direction: column;
     }
 
     .botao{
